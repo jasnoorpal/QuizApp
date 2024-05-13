@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": {
+      "correctAnswer": "Hyper Text Markup Language",
+      "incorrectAnswer": [
+        "Hexagon Triangle Machine Learning",
+        "Highly Transfered Mac Label",
+        "High Tier Multi Layer"
+      ]
+    }
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answers": {
+      "correctAnswer": "Cascading Style Sheet",
+      "incorrectAnswer": [
+        "Creative Style Sheet",
+        "Cascading Still Sheet",
+        "Creating Style Sheet"
+      ]
+    }
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "answers": {
+      "correctAnswer": "<ul>",
+      "incorrectAnswer": [
+        "<ol>",
+        "<li>",
+        "<tr>"
+      ]
+    }
+  },
+  {
+    "question": "What is the correct CSS syntax for setting the text color of a paragraph to red?",
+    "answers": {
+      "correctAnswer": "p { color: red; }",
+      "incorrectAnswer": [
+        "p { text-color: red; }",
+        "p { font-color: red; }",
+        "p { style: red; }"
+      ]
+    }
+  },
+  {
+    "question": "Which CSS property is used to control the spacing between lines of text?",
+    "answers": {
+      "correctAnswer": "line-height",
+      "incorrectAnswer": [
+        "text-spacing",
+        "line-spacing",
+        "font-spacing"
+      ]
+    }
+  },
+  {
+    "question": "Which HTML tag is used to define a hyperlink?",
+    "answers": {
+      "correctAnswer": "<a>",
+      "incorrectAnswer": [
+        "<img>",
+        "<link>",
+        "<href>"
+      ]
+    }
+  },
+  {
+    "question": "In CSS, how do you select an element with id 'myElement'?",
+    "answers": {
+      "correctAnswer": "#myElement",
+      "incorrectAnswer": [
+        ".myElement",
+        "*myElement",
+        "element.myElement"
+      ]
+    }
+  },
+  {
+    "question": "Which HTML attribute is used to specify additional information about an element?",
+    "answers": {
+      "correctAnswer": "class",
+      "incorrectAnswer": [
+        "id",
+        "style",
+        "data"
+      ]
+    }
+  },
+  {
+    "question": "What does the 'float' property in CSS do?",
+    "answers": {
+      "correctAnswer": "Specifies whether an element should float to the left, right, or not at all",
+      "incorrectAnswer": [
+        "Makes an element 'float' in mid-air",
+        "Sets the opacity of an element",
+        "Moves an element out of the normal flow of the document"
+      ]
+    }
+  },
+  {
+    "question": "Which HTML tag is used to define a table row?",
+    "answers": {
+      "correctAnswer": "<tr>",
+      "incorrectAnswer": [
+        "<td>",
+        "<table>",
+        "<th>"
+      ]
+    }
+  }
+]

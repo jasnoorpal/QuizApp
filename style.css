@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg, rgb(0, 255, 251), rgba(12, 66, 175, 0.702));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 3vh 0;
+}
+
+.quizContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quizBox {
+  max-width: 700px;
+  width: 90%;
+  outline: 0.3vmin solid black;
+  margin-top: 10vh;
+  background: white;
+}
+
+.question {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.choices label {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  outline: 0.1vmin solid black;
+  outline-offset: -0.5vmin;
+}
+
+.choices label:hover {
+  background: #e5e5e5;
+}
+
+.choices label input {
+  margin-right: 5px;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+}
+
+#next {
+  height: 100px;
+  max-width: 900px;
+  min-width: 500px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(35deg, purple, yellowgreen);
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+#next:hover {
+  background: linear-gradient(80deg, purple, yellowgreen);
+}
+
+.result h2,
+.result p {
+  font-size: 1.5rem;
+  color: #fff;
+}

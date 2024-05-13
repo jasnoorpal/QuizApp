@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz app</title>
+  </head>
+  
+  <script src="script.js"></script>
+
+  <body>
+    <h1>Quiz Application by - Jasnoor Pal Singh</h1>
+    <div class="startQuizContainer">
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button id="startQuiz">Start Quiz</button>
+    </div>
+
+    <div class="quizContainer" style="display: none;">
+      <div>
+        <h1 id="questionNo"></h1>
+      </div>
+      <div class="quizBox">
+        <div class="question"></div>
+        <div class="choices"></div>
+      </div>
+      <div class="button">
+        <button id="next">Next</button>
+      </div>
+    </div>
+    <div class="result" style="display: none">
+      <h1>Quiz Results</h1>
+      <h2>Name : <span id="name"></span></h2>
+      <p>Total Marks: <span id="totalMarks"></span></p>
+      <p>Wrong Questions:</p>
+      <ul id="wrongQuestions"></ul>
+    </div>
+
+  </body>
+</html>
